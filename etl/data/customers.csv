@@ -1,0 +1,45 @@
+customer_id,full_name,email,country,signup_date
+CUST-001,  Julia Nowak  ,JULIA.NOWAK@EXAMPLE.COM,pl,25/04/2023
+CUST-002,  Bartosz Szymanski  ,BARTOSZ.SZYMANSKI@EXAMPLE.COM,DE,16/01/2023
+CUST-003,Adam Kowalska,adam.kowalska@example.com,DE,2023-12-26
+CUST-004,  Adam Kowalczyk  ,  adam.kowalczyk@example.com  ,CZ,2024-02-17
+CUST-005,  Karolina Wisniewski  ,KAROLINA.WISNIEWSKI@EXAMPLE.COM,pl,2023-02-22
+CUST-006,Krzysztof Kaminski,krzysztof.kaminski@example.com,pl,2024-01-09
+CUST-007,Piotr Szymanski,piotr.szymanski@example.com,DE,29/03/2024
+CUST-008,Piotr Kowalska,piotr.kowalska@example.com,pl,2023-02-10
+CUST-009,Karolina Zielinski,karolina.zielinski@example.com,Germany,09/07/2023
+CUST-010,Alicja Nowak,alicja.nowak@example.com,Czechia,2024-01-09
+CUST-011,Karolina Szymanski,KAROLINA.SZYMANSKI@EXAMPLE.COM,DE,2024-01-29
+CUST-012,Natalia Kaminski,  natalia.kaminski@example.com  ,de,2024-04-12
+CUST-013,  Julia Zielinski  ,julia.zielinski@example.com,Poland,2023-08-23
+CUST-014,Bartosz Szymanski,bartosz.szymanski@example.com,CZ,2023-08-08
+CUST-015,Tomasz Wisniewski,  tomasz.wisniewski@example.com  ,Poland,25/01/2023
+CUST-016,Marta Lewandowska,marta.lewandowska@example.com,Germany,02/11/2023
+CUST-017,Krzysztof Kowalska,  krzysztof.kowalska@example.com  ,Germany,29/03/2024
+CUST-018,Jakub Nowak,jakub.nowak@example.com,Germany,02/01/2023
+CUST-019,Natalia Wisniewski,  natalia.wisniewski@example.com  ,DE,2023-11-17
+CUST-020,Jakub Wisniewski,jakub.wisniewski@example.com,de,2023-09-29
+CUST-021,Anna Nowak,anna.nowak@example.com,DE,2024-03-01
+CUST-022,Tomasz Dabrowska,  tomasz.dabrowska@example.com  ,Poland,2023-09-06
+CUST-023,Julia Zielinski,julia.zielinski@example.com,CZ,2023-09-28
+CUST-024,Alicja Szymanski,alicja.szymanski@example.com,de,2024-01-01
+CUST-025,Alicja Szymanski,alicja.szymanski@example.com,DE,02/02/2023
+CUST-026,  Tomasz Kowalska  ,TOMASZ.KOWALSKA@EXAMPLE.COM,PL,2023-04-28
+CUST-027,Piotr Szymanski,PIOTR.SZYMANSKI@EXAMPLE.COM,Czechia,2023-04-20
+CUST-028,Natalia Zielinski,natalia.zielinski@example.com,de,2023-02-19
+CUST-029,Ewa Zielinski,  ewa.zielinski@example.com  ,pl,2023-12-01
+CUST-030,  Ewa Kaminski  ,  ewa.kaminski@example.com  ,Czechia,2023-04-09
+CUST-031,  Ewa Wisniewski  ,ewa.wisniewski@example.com,pl,2024-04-17
+CUST-032,Julia Szymanski,julia.szymanski@example.com,DE,2024-04-19
+CUST-033,  Ewa Zielinski  ,ewa.zielinski@example.com,CZ,2024-04-07
+CUST-034,Ewa Kowalczyk,ewa.kowalczyk@example.com,Czechia,2023-05-27
+CUST-035,Tomasz Kowalczyk,  TOMASZ.KOWALCZYK@EXAMPLE.COM  ,de,2024-01-12
+CUST-036,  Anna Dabrowska  ,anna.dabrowska@example.com,pl,2023-09-29
+CUST-037,  Piotr Dabrowska  ,PIOTR.DABROWSKA@EXAMPLE.COM,DE,26/07/2023
+CUST-038,Adam Kowalska,adam.kowalska@example.com,de,2023-10-26
+CUST-039,Tomasz Kaminski,TOMASZ.KAMINSKI@EXAMPLE.COM,Czechia,2023-12-10
+CUST-040,Alicja Nowak,ALICJA.NOWAK@EXAMPLE.COM,pl,16/10/2023
+CUST-014,Bartosz Szymanski,bartosz.szymanski@example.com,CZ,2024-07-15
+CUST-033,  Ewa Zielinski  ,ewa.zielinski@example.com,CZ,2024-06-09
+CUST-017,Krzysztof Kowalska,  krzysztof.kowalska@example.com  ,Germany,2024-07-02
+CUST-009,Karolina Zielinski,karolina.zielinski@example.com,Germany,2024-07-18

@@ -1,0 +1,216 @@
+order_id,customer_id,product_id,quantity,unit_price,order_date,status,full_name,email,country,signup_date,product_name,category,unit_cost,revenue,order_month
+ORD-0071,CUST-901,P-009,1,31.84,2024-02-10,completed,,,,,Podkladka pod mysz,Peryferia,25.0,31.84,2024-02
+ORD-0040,CUST-036,P-012,2,248.03,2024-11-26,completed,Anna Dabrowska,anna.dabrowska@example.com,PL,2023-09-29,Pamiec RAM 16GB,Komponenty,195.0,496.06,2024-11
+ORD-0093,CUST-040,P-002,2,106.31,2024-06-15,cancelled,Alicja Nowak,alicja.nowak@example.com,PL,2023-10-16,Mysz bezprzewodowa,Peryferia,89.5,212.62,2024-06
+ORD-0137,CUST-022,P-001,1,263.69,2024-12-16,completed,Tomasz Dabrowska,tomasz.dabrowska@example.com,PL,2023-09-06,Klawiatura mechaniczna,Peryferia,210.0,263.69,2024-12
+ORD-0140,CUST-024,P-005,1,379.95,2024-08-13,pending,Alicja Szymanski,alicja.szymanski@example.com,DE,2024-01-01,Sluchawki nauszne,Audio,320.0,379.95,2024-08
+ORD-0075,CUST-900,P-012,1,241.52,2024-12-17,cancelled,,,,,Pamiec RAM 16GB,Komponenty,195.0,241.52,2024-12
+ORD-0139,CUST-035,P-007,1,4484.88,2024-11-27,cancelled,Tomasz Kowalczyk,tomasz.kowalczyk@example.com,DE,2024-01-12,Laptop 14 cali,Komputery,3100.0,4484.88,2024-11
+ORD-0167,CUST-022,P-006,1,569.27,2024-03-14,returned,Tomasz Dabrowska,tomasz.dabrowska@example.com,PL,2023-09-06,Mikrofon USB,Audio,410.0,569.27,2024-03
+ORD-0145,CUST-025,P-011,1,365.37,2024-03-19,pending,Alicja Szymanski,alicja.szymanski@example.com,DE,2023-02-02,Dysk SSD 1TB,Komponenty,290.0,365.37,2024-03
+ORD-0217,CUST-018,P-001,1,274.85,2024-09-14,completed,Jakub Nowak,jakub.nowak@example.com,DE,2023-01-02,Klawiatura mechaniczna,Peryferia,210.0,274.85,2024-09
+ORD-0223,CUST-038,P-001,4,302.07,2024-07-22,completed,Adam Kowalska,adam.kowalska@example.com,DE,2023-10-26,Klawiatura mechaniczna,Peryferia,210.0,1208.28,2024-07
+ORD-0032,CUST-024,P-012,2,239.24,2024-02-28,completed,Alicja Szymanski,alicja.szymanski@example.com,DE,2024-01-01,Pamiec RAM 16GB,Komponenty,195.0,478.48,2024-02
+ORD-0013,CUST-001,P-001,3,286.15,2024-12-17,cancelled,Julia Nowak,julia.nowak@example.com,PL,2023-04-25,Klawiatura mechaniczna,Peryferia,210.0,858.4499999999999,2024-12
+ORD-0141,CUST-034,P-012,1,253.36,2024-08-05,returned,Ewa Kowalczyk,ewa.kowalczyk@example.com,CZ,2023-05-27,Pamiec RAM 16GB,Komponenty,195.0,253.36,2024-08
+ORD-0128,CUST-011,P-002,4,110.58,2024-03-16,pending,Karolina Szymanski,karolina.szymanski@example.com,DE,2024-01-29,Mysz bezprzewodowa,Peryferia,89.5,442.32,2024-03
+ORD-0135,CUST-033,P-009,1,32.83,2024-08-28,cancelled,Ewa Zielinski,ewa.zielinski@example.com,CZ,2024-06-09,Podkladka pod mysz,Peryferia,25.0,32.83,2024-08
+ORD-0154,CUST-004,P-009,2,35.58,2024-06-04,cancelled,Adam Kowalczyk,adam.kowalczyk@example.com,CZ,2024-02-17,Podkladka pod mysz,Peryferia,25.0,71.16,2024-06
+ORD-0021,CUST-029,P-009,3,33.22,2024-09-15,pending,Ewa Zielinski,ewa.zielinski@example.com,PL,2023-12-01,Podkladka pod mysz,Peryferia,25.0,99.66,2024-09
+ORD-0010,CUST-026,P-001,4,283.08,2024-05-22,returned,Tomasz Kowalska,tomasz.kowalska@example.com,PL,2023-04-28,Klawiatura mechaniczna,Peryferia,210.0,1132.32,2024-05
+ORD-0056,CUST-027,P-002,2,115.54,2024-03-23,cancelled,Piotr Szymanski,piotr.szymanski@example.com,CZ,2023-04-20,Mysz bezprzewodowa,Peryferia,89.5,231.08,2024-03
+ORD-0184,CUST-901,P-006,2,506.5,2024-03-09,completed,,,,,Mikrofon USB,Audio,410.0,1013.0,2024-03
+ORD-0153,CUST-034,P-008,4,6126.31,2024-10-09,pending,Ewa Kowalczyk,ewa.kowalczyk@example.com,CZ,2023-05-27,Laptop 16 cali,Komputery,4750.0,24505.24,2024-10
+ORD-0052,CUST-018,P-011,1,346.46,2024-03-25,cancelled,Jakub Nowak,jakub.nowak@example.com,DE,2023-01-02,Dysk SSD 1TB,Komponenty,290.0,346.46,2024-03
+ORD-0034,CUST-901,P-012,1,269.44,2024-10-16,cancelled,,,,,Pamiec RAM 16GB,Komponenty,195.0,269.44,2024-10
+ORD-0150,CUST-900,P-012,1,265.76,2024-04-24,completed,,,,,Pamiec RAM 16GB,Komponenty,195.0,265.76,2024-04
+ORD-0238,CUST-016,P-003,1,1259.6,2024-08-04,pending,Marta Lewandowska,marta.lewandowska@example.com,DE,2023-11-02,Monitor 27 cali,Monitory,940.0,1259.6,2024-08
+ORD-0123,CUST-007,P-005,2,449.07,2024-09-26,completed,Piotr Szymanski,piotr.szymanski@example.com,DE,2024-03-29,Sluchawki nauszne,Audio,320.0,898.14,2024-09
+ORD-0166,CUST-018,P-008,2,6551.78,2024-11-08,pending,Jakub Nowak,jakub.nowak@example.com,DE,2023-01-02,Laptop 16 cali,Komputery,4750.0,13103.56,2024-11
+ORD-0033,CUST-025,P-005,3,423.28,2024-02-08,completed,Alicja Szymanski,alicja.szymanski@example.com,DE,2023-02-02,Sluchawki nauszne,Audio,320.0,1269.84,2024-02
+ORD-0222,CUST-005,P-005,1,372.47,2024-10-05,cancelled,Karolina Wisniewski,karolina.wisniewski@example.com,PL,2023-02-22,Sluchawki nauszne,Audio,320.0,372.47,2024-10
+ORD-0009,CUST-015,P-001,4,295.59,2024-06-28,completed,Tomasz Wisniewski,tomasz.wisniewski@example.com,PL,2023-01-25,Klawiatura mechaniczna,Peryferia,210.0,1182.36,2024-06
+ORD-0178,CUST-019,P-003,1,1162.91,2024-08-14,completed,Natalia Wisniewski,natalia.wisniewski@example.com,DE,2023-11-17,Monitor 27 cali,Monitory,940.0,1162.91,2024-08
+ORD-0044,CUST-012,P-005,3,389.84,2024-03-05,returned,Natalia Kaminski,natalia.kaminski@example.com,DE,2024-04-12,Sluchawki nauszne,Audio,320.0,1169.52,2024-03
+ORD-0175,CUST-023,P-009,4,31.32,2024-12-14,completed,Julia Zielinski,julia.zielinski@example.com,CZ,2023-09-28,Podkladka pod mysz,Peryferia,25.0,125.28,2024-12
+ORD-0092,CUST-028,P-008,2,6669.9,2024-08-15,completed,Natalia Zielinski,natalia.zielinski@example.com,DE,2023-02-19,Laptop 16 cali,Komputery,4750.0,13339.8,2024-08
+ORD-0212,CUST-015,P-003,4,1136.33,2024-09-12,cancelled,Tomasz Wisniewski,tomasz.wisniewski@example.com,PL,2023-01-25,Monitor 27 cali,Monitory,940.0,4545.32,2024-09
+ORD-0097,CUST-036,P-009,2,29.2,2024-07-29,completed,Anna Dabrowska,anna.dabrowska@example.com,PL,2023-09-29,Podkladka pod mysz,Peryferia,25.0,58.4,2024-07
+ORD-0189,CUST-019,P-012,1,231.12,2024-03-09,cancelled,Natalia Wisniewski,natalia.wisniewski@example.com,DE,2023-11-17,Pamiec RAM 16GB,Komponenty,195.0,231.12,2024-03
+ORD-0108,CUST-019,P-012,1,261.7,2024-06-15,pending,Natalia Wisniewski,natalia.wisniewski@example.com,DE,2023-11-17,Pamiec RAM 16GB,Komponenty,195.0,261.7,2024-06
+ORD-0155,CUST-006,P-009,2,35.46,2024-10-09,returned,Krzysztof Kaminski,krzysztof.kaminski@example.com,PL,2024-01-09,Podkladka pod mysz,Peryferia,25.0,70.92,2024-10
+ORD-0161,CUST-029,P-008,1,5637.09,2024-05-28,completed,Ewa Zielinski,ewa.zielinski@example.com,PL,2023-12-01,Laptop 16 cali,Komputery,4750.0,5637.09,2024-05
+ORD-0227,CUST-900,P-003,3,1272.67,2024-05-31,cancelled,,,,,Monitor 27 cali,Monitory,940.0,3818.01,2024-05
+ORD-0020,CUST-034,P-007,2,3768.52,2024-03-03,returned,Ewa Kowalczyk,ewa.kowalczyk@example.com,CZ,2023-05-27,Laptop 14 cali,Komputery,3100.0,7537.04,2024-03
+ORD-0016,CUST-014,P-001,2,260.64,2024-12-01,completed,Bartosz Szymanski,bartosz.szymanski@example.com,CZ,2024-07-15,Klawiatura mechaniczna,Peryferia,210.0,521.28,2024-12
+ORD-0070,CUST-002,P-003,3,1276.71,2024-05-30,completed,Bartosz Szymanski,bartosz.szymanski@example.com,DE,2023-01-16,Monitor 27 cali,Monitory,940.0,3830.13,2024-05
+ORD-0042,CUST-030,P-006,1,514.77,2024-03-02,completed,Ewa Kaminski,ewa.kaminski@example.com,CZ,2023-04-09,Mikrofon USB,Audio,410.0,514.77,2024-03
+ORD-0125,CUST-016,P-006,2,554.69,2024-08-17,pending,Marta Lewandowska,marta.lewandowska@example.com,DE,2023-11-02,Mikrofon USB,Audio,410.0,1109.38,2024-08
+ORD-0098,CUST-023,P-005,2,425.64,2024-03-20,cancelled,Julia Zielinski,julia.zielinski@example.com,CZ,2023-09-28,Sluchawki nauszne,Audio,320.0,851.28,2024-03
+ORD-0186,CUST-900,P-003,4,1253.29,2024-09-20,completed,,,,,Monitor 27 cali,Monitory,940.0,5013.16,2024-09
+ORD-0014,CUST-008,P-010,1,223.95,2024-06-07,returned,Piotr Kowalska,piotr.kowalska@example.com,PL,2023-02-10,Kamerka internetowa,Peryferia,180.0,223.95,2024-06
+ORD-0109,CUST-006,P-012,1,278.06,2024-08-11,pending,Krzysztof Kaminski,krzysztof.kaminski@example.com,PL,2024-01-09,Pamiec RAM 16GB,Komponenty,195.0,278.06,2024-08
+ORD-0207,CUST-004,P-012,2,272.77,2024-11-04,returned,Adam Kowalczyk,adam.kowalczyk@example.com,CZ,2024-02-17,Pamiec RAM 16GB,Komponenty,195.0,545.54,2024-11
+ORD-0099,CUST-018,P-009,3,31.51,2024-10-14,completed,Jakub Nowak,jakub.nowak@example.com,DE,2023-01-02,Podkladka pod mysz,Peryferia,25.0,94.53,2024-10
+ORD-0061,CUST-019,P-008,1,6791.53,2024-09-04,completed,Natalia Wisniewski,natalia.wisniewski@example.com,DE,2023-11-17,Laptop 16 cali,Komputery,4750.0,6791.53,2024-09
+ORD-0049,CUST-017,P-004,1,815.97,2024-03-29,pending,Krzysztof Kowalska,krzysztof.kowalska@example.com,DE,2024-07-02,Monitor 24 cale,Monitory,610.0,815.97,2024-03
+ORD-0087,CUST-037,P-004,4,882.45,2024-10-10,cancelled,Piotr Dabrowska,piotr.dabrowska@example.com,DE,2023-07-26,Monitor 24 cale,Monitory,610.0,3529.8,2024-10
+ORD-0047,CUST-037,P-003,1,1123.07,2024-05-07,completed,Piotr Dabrowska,piotr.dabrowska@example.com,DE,2023-07-26,Monitor 27 cali,Monitory,940.0,1123.07,2024-05
+ORD-0132,CUST-019,P-007,1,3668.4,2024-05-02,pending,Natalia Wisniewski,natalia.wisniewski@example.com,DE,2023-11-17,Laptop 14 cali,Komputery,3100.0,3668.4,2024-05
+ORD-0127,CUST-009,P-004,1,848.13,2024-09-03,returned,Karolina Zielinski,karolina.zielinski@example.com,DE,2024-07-18,Monitor 24 cale,Monitory,610.0,848.13,2024-09
+ORD-0206,CUST-016,P-009,1,29.76,2024-02-10,returned,Marta Lewandowska,marta.lewandowska@example.com,DE,2023-11-02,Podkladka pod mysz,Peryferia,25.0,29.76,2024-02
+ORD-0188,CUST-016,P-005,1,430.75,2024-06-06,cancelled,Marta Lewandowska,marta.lewandowska@example.com,DE,2023-11-02,Sluchawki nauszne,Audio,320.0,430.75,2024-06
+ORD-0059,CUST-036,P-001,1,254.32,2024-12-23,completed,Anna Dabrowska,anna.dabrowska@example.com,PL,2023-09-29,Klawiatura mechaniczna,Peryferia,210.0,254.32,2024-12
+ORD-0112,CUST-900,P-011,3,340.06,2024-10-23,cancelled,,,,,Dysk SSD 1TB,Komponenty,290.0,1020.1800000000001,2024-10
+ORD-0173,CUST-027,P-001,2,269.29,2024-07-29,completed,Piotr Szymanski,piotr.szymanski@example.com,CZ,2023-04-20,Klawiatura mechaniczna,Peryferia,210.0,538.58,2024-07
+ORD-0168,CUST-009,P-001,3,244.35,2024-09-22,completed,Karolina Zielinski,karolina.zielinski@example.com,DE,2024-07-18,Klawiatura mechaniczna,Peryferia,210.0,733.05,2024-09
+ORD-0078,CUST-024,P-003,4,1302.8,2024-03-25,cancelled,Alicja Szymanski,alicja.szymanski@example.com,DE,2024-01-01,Monitor 27 cali,Monitory,940.0,5211.2,2024-03
+ORD-0038,CUST-025,P-010,2,239.96,2024-06-15,cancelled,Alicja Szymanski,alicja.szymanski@example.com,DE,2023-02-02,Kamerka internetowa,Peryferia,180.0,479.92,2024-06
+ORD-0029,CUST-021,P-001,1,257.89,2024-07-13,cancelled,Anna Nowak,anna.nowak@example.com,DE,2024-03-01,Klawiatura mechaniczna,Peryferia,210.0,257.89,2024-07
+ORD-0004,CUST-018,P-011,1,370.35,2024-03-07,returned,Jakub Nowak,jakub.nowak@example.com,DE,2023-01-02,Dysk SSD 1TB,Komponenty,290.0,370.35,2024-03
+ORD-0073,CUST-005,P-011,1,381.05,2024-10-27,cancelled,Karolina Wisniewski,karolina.wisniewski@example.com,PL,2023-02-22,Dysk SSD 1TB,Komponenty,290.0,381.05,2024-10
+ORD-0106,CUST-028,P-002,1,103.13,2024-12-26,completed,Natalia Zielinski,natalia.zielinski@example.com,DE,2023-02-19,Mysz bezprzewodowa,Peryferia,89.5,103.13,2024-12
+ORD-0086,CUST-030,P-002,1,128.41,2024-11-23,cancelled,Ewa Kaminski,ewa.kaminski@example.com,CZ,2023-04-09,Mysz bezprzewodowa,Peryferia,89.5,128.41,2024-11
+ORD-0232,CUST-018,P-003,1,1156.84,2024-08-10,completed,Jakub Nowak,jakub.nowak@example.com,DE,2023-01-02,Monitor 27 cali,Monitory,940.0,1156.84,2024-08
+ORD-0120,CUST-901,P-006,1,509.66,2024-10-31,cancelled,,,,,Mikrofon USB,Audio,410.0,509.66,2024-10
+ORD-0095,CUST-027,P-008,2,6728.03,2024-07-31,cancelled,Piotr Szymanski,piotr.szymanski@example.com,CZ,2023-04-20,Laptop 16 cali,Komputery,4750.0,13456.06,2024-07
+ORD-0064,CUST-023,P-008,3,6229.98,2024-07-12,completed,Julia Zielinski,julia.zielinski@example.com,CZ,2023-09-28,Laptop 16 cali,Komputery,4750.0,18689.94,2024-07
+ORD-0235,CUST-013,P-005,1,398.78,2024-07-22,completed,Julia Zielinski,julia.zielinski@example.com,PL,2023-08-23,Sluchawki nauszne,Audio,320.0,398.78,2024-07
+ORD-0065,CUST-027,P-010,3,227.68,2024-12-27,pending,Piotr Szymanski,piotr.szymanski@example.com,CZ,2023-04-20,Kamerka internetowa,Peryferia,180.0,683.04,2024-12
+ORD-0216,CUST-040,P-010,2,241.44,2024-01-09,completed,Alicja Nowak,alicja.nowak@example.com,PL,2023-10-16,Kamerka internetowa,Peryferia,180.0,482.88,2024-01
+ORD-0163,CUST-006,P-005,2,415.75,2024-05-03,completed,Krzysztof Kaminski,krzysztof.kaminski@example.com,PL,2024-01-09,Sluchawki nauszne,Audio,320.0,831.5,2024-05
+ORD-0200,CUST-007,P-004,1,739.21,2024-12-10,pending,Piotr Szymanski,piotr.szymanski@example.com,DE,2024-03-29,Monitor 24 cale,Monitory,610.0,739.21,2024-12
+ORD-0103,CUST-004,P-003,1,1293.75,2024-12-04,pending,Adam Kowalczyk,adam.kowalczyk@example.com,CZ,2024-02-17,Monitor 27 cali,Monitory,940.0,1293.75,2024-12
+ORD-0105,CUST-039,P-004,1,773.83,2024-04-18,cancelled,Tomasz Kaminski,tomasz.kaminski@example.com,CZ,2023-12-10,Monitor 24 cale,Monitory,610.0,773.83,2024-04
+ORD-0159,CUST-004,P-008,1,5566.49,2024-08-25,cancelled,Adam Kowalczyk,adam.kowalczyk@example.com,CZ,2024-02-17,Laptop 16 cali,Komputery,4750.0,5566.49,2024-08
+ORD-0046,CUST-004,P-008,4,5948.01,2024-02-28,completed,Adam Kowalczyk,adam.kowalczyk@example.com,CZ,2024-02-17,Laptop 16 cali,Komputery,4750.0,23792.04,2024-02
+ORD-0220,CUST-036,P-007,2,3917.72,2024-12-25,cancelled,Anna Dabrowska,anna.dabrowska@example.com,PL,2023-09-29,Laptop 14 cali,Komputery,3100.0,7835.44,2024-12
+ORD-0209,CUST-014,P-004,1,828.8,2024-06-13,cancelled,Bartosz Szymanski,bartosz.szymanski@example.com,CZ,2024-07-15,Monitor 24 cale,Monitory,610.0,828.8,2024-06
+ORD-0058,CUST-035,P-001,1,282.93,2024-09-22,pending,Tomasz Kowalczyk,tomasz.kowalczyk@example.com,DE,2024-01-12,Klawiatura mechaniczna,Peryferia,210.0,282.93,2024-09
+ORD-0197,CUST-008,P-011,2,408.34,2024-09-27,completed,Piotr Kowalska,piotr.kowalska@example.com,PL,2023-02-10,Dysk SSD 1TB,Komponenty,290.0,816.68,2024-09
+ORD-0114,CUST-029,P-002,1,111.26,2024-05-26,returned,Ewa Zielinski,ewa.zielinski@example.com,PL,2023-12-01,Mysz bezprzewodowa,Peryferia,89.5,111.26,2024-05
+ORD-0211,CUST-015,P-007,1,3607.52,2024-10-10,cancelled,Tomasz Wisniewski,tomasz.wisniewski@example.com,PL,2023-01-25,Laptop 14 cali,Komputery,3100.0,3607.52,2024-10
+ORD-0199,CUST-013,P-006,3,490.58,2024-02-27,completed,Julia Zielinski,julia.zielinski@example.com,PL,2023-08-23,Mikrofon USB,Audio,410.0,1471.74,2024-02
+ORD-0191,CUST-024,P-009,2,32.1,2024-02-01,returned,Alicja Szymanski,alicja.szymanski@example.com,DE,2024-01-01,Podkladka pod mysz,Peryferia,25.0,64.2,2024-02
+ORD-0156,CUST-011,P-002,2,116.42,2024-03-28,cancelled,Karolina Szymanski,karolina.szymanski@example.com,DE,2024-01-29,Mysz bezprzewodowa,Peryferia,89.5,232.84,2024-03
+ORD-0023,CUST-029,P-011,1,354.31,2024-05-19,completed,Ewa Zielinski,ewa.zielinski@example.com,PL,2023-12-01,Dysk SSD 1TB,Komponenty,290.0,354.31,2024-05
+ORD-0083,CUST-009,P-004,1,863.87,2024-12-22,pending,Karolina Zielinski,karolina.zielinski@example.com,DE,2024-07-18,Monitor 24 cale,Monitory,610.0,863.87,2024-12
+ORD-0203,CUST-038,P-001,4,276.57,2024-11-16,cancelled,Adam Kowalska,adam.kowalska@example.com,DE,2023-10-26,Klawiatura mechaniczna,Peryferia,210.0,1106.28,2024-11
+ORD-0069,CUST-019,P-011,3,393.04,2024-08-10,pending,Natalia Wisniewski,natalia.wisniewski@example.com,DE,2023-11-17,Dysk SSD 1TB,Komponenty,290.0,1179.1200000000001,2024-08
+ORD-0195,CUST-005,P-001,2,300.38,2024-05-26,pending,Karolina Wisniewski,karolina.wisniewski@example.com,PL,2023-02-22,Klawiatura mechaniczna,Peryferia,210.0,600.76,2024-05
+ORD-0224,CUST-025,P-010,2,252.07,2024-07-15,returned,Alicja Szymanski,alicja.szymanski@example.com,DE,2023-02-02,Kamerka internetowa,Peryferia,180.0,504.14,2024-07
+ORD-0165,CUST-026,P-007,2,3905.32,2024-07-04,returned,Tomasz Kowalska,tomasz.kowalska@example.com,PL,2023-04-28,Laptop 14 cali,Komputery,3100.0,7810.64,2024-07
+ORD-0121,CUST-901,P-003,1,1269.97,2024-12-09,cancelled,,,,,Monitor 27 cali,Monitory,940.0,1269.97,2024-12
+ORD-0074,CUST-013,P-008,4,6667.06,2024-02-24,cancelled,Julia Zielinski,julia.zielinski@example.com,PL,2023-08-23,Laptop 16 cali,Komputery,4750.0,26668.24,2024-02
+ORD-0194,CUST-001,P-007,2,3801.65,2024-01-24,returned,Julia Nowak,julia.nowak@example.com,PL,2023-04-25,Laptop 14 cali,Komputery,3100.0,7603.3,2024-01
+ORD-0085,CUST-024,P-008,2,6817.04,2024-10-05,completed,Alicja Szymanski,alicja.szymanski@example.com,DE,2024-01-01,Laptop 16 cali,Komputery,4750.0,13634.08,2024-10
+ORD-0054,CUST-039,P-007,1,4248.12,2024-12-11,cancelled,Tomasz Kaminski,tomasz.kaminski@example.com,CZ,2023-12-10,Laptop 14 cali,Komputery,3100.0,4248.12,2024-12
+ORD-0050,CUST-031,P-008,1,6444.85,2024-12-27,completed,Ewa Wisniewski,ewa.wisniewski@example.com,PL,2024-04-17,Laptop 16 cali,Komputery,4750.0,6444.85,2024-12
+ORD-0066,CUST-038,P-001,1,249.45,2024-08-13,completed,Adam Kowalska,adam.kowalska@example.com,DE,2023-10-26,Klawiatura mechaniczna,Peryferia,210.0,249.45,2024-08
+ORD-0019,CUST-037,P-007,2,4389.11,2024-09-10,completed,Piotr Dabrowska,piotr.dabrowska@example.com,DE,2023-07-26,Laptop 14 cali,Komputery,3100.0,8778.22,2024-09
+ORD-0221,CUST-007,P-010,4,259.78,2024-04-27,pending,Piotr Szymanski,piotr.szymanski@example.com,DE,2024-03-29,Kamerka internetowa,Peryferia,180.0,1039.12,2024-04
+ORD-0225,CUST-004,P-012,1,281.25,2024-02-08,pending,Adam Kowalczyk,adam.kowalczyk@example.com,CZ,2024-02-17,Pamiec RAM 16GB,Komponenty,195.0,281.25,2024-02
+ORD-0024,CUST-025,P-003,3,1123.53,2024-02-02,pending,Alicja Szymanski,alicja.szymanski@example.com,DE,2023-02-02,Monitor 27 cali,Monitory,940.0,3370.59,2024-02
+ORD-0015,CUST-900,P-003,2,1135.1,2024-03-30,returned,,,,,Monitor 27 cali,Monitory,940.0,2270.2,2024-03
+ORD-0079,CUST-008,P-012,1,275.17,2024-04-25,cancelled,Piotr Kowalska,piotr.kowalska@example.com,PL,2023-02-10,Pamiec RAM 16GB,Komponenty,195.0,275.17,2024-04
+ORD-0062,CUST-039,P-007,4,3742.27,2024-02-05,cancelled,Tomasz Kaminski,tomasz.kaminski@example.com,CZ,2023-12-10,Laptop 14 cali,Komputery,3100.0,14969.08,2024-02
+ORD-0031,CUST-002,P-004,1,737.98,2024-08-30,pending,Bartosz Szymanski,bartosz.szymanski@example.com,DE,2023-01-16,Monitor 24 cale,Monitory,610.0,737.98,2024-08
+ORD-0180,CUST-004,P-004,1,818.24,2024-08-29,completed,Adam Kowalczyk,adam.kowalczyk@example.com,CZ,2024-02-17,Monitor 24 cale,Monitory,610.0,818.24,2024-08
+ORD-0035,CUST-022,P-002,1,116.51,2024-09-07,pending,Tomasz Dabrowska,tomasz.dabrowska@example.com,PL,2023-09-06,Mysz bezprzewodowa,Peryferia,89.5,116.51,2024-09
+ORD-0215,CUST-900,P-001,3,267.48,2024-01-05,completed,,,,,Klawiatura mechaniczna,Peryferia,210.0,802.44,2024-01
+ORD-0193,CUST-033,P-001,2,270.07,2024-10-13,completed,Ewa Zielinski,ewa.zielinski@example.com,CZ,2024-06-09,Klawiatura mechaniczna,Peryferia,210.0,540.14,2024-10
+ORD-0147,CUST-036,P-008,3,6200.29,2024-12-26,cancelled,Anna Dabrowska,anna.dabrowska@example.com,PL,2023-09-29,Laptop 16 cali,Komputery,4750.0,18600.87,2024-12
+ORD-0091,CUST-040,P-008,3,6180.47,2024-12-03,completed,Alicja Nowak,alicja.nowak@example.com,PL,2023-10-16,Laptop 16 cali,Komputery,4750.0,18541.41,2024-12
+ORD-0202,CUST-901,P-010,1,239.29,2024-03-14,cancelled,,,,,Kamerka internetowa,Peryferia,180.0,239.29,2024-03
+ORD-0146,CUST-034,P-002,1,118.33,2024-05-22,completed,Ewa Kowalczyk,ewa.kowalczyk@example.com,CZ,2023-05-27,Mysz bezprzewodowa,Peryferia,89.5,118.33,2024-05
+ORD-0229,CUST-007,P-006,1,565.15,2024-08-17,completed,Piotr Szymanski,piotr.szymanski@example.com,DE,2024-03-29,Mikrofon USB,Audio,410.0,565.15,2024-08
+ORD-0160,CUST-023,P-012,1,242.93,2024-07-08,completed,Julia Zielinski,julia.zielinski@example.com,CZ,2023-09-28,Pamiec RAM 16GB,Komponenty,195.0,242.93,2024-07
+ORD-0136,CUST-005,P-012,3,225.2,2024-11-17,completed,Karolina Wisniewski,karolina.wisniewski@example.com,PL,2023-02-22,Pamiec RAM 16GB,Komponenty,195.0,675.5999999999999,2024-11
+ORD-0126,CUST-037,P-004,2,768.81,2024-05-24,completed,Piotr Dabrowska,piotr.dabrowska@example.com,DE,2023-07-26,Monitor 24 cale,Monitory,610.0,1537.62,2024-05
+ORD-0190,CUST-031,P-007,3,4217.8,2024-04-21,completed,Ewa Wisniewski,ewa.wisniewski@example.com,PL,2024-04-17,Laptop 14 cali,Komputery,3100.0,12653.400000000001,2024-04
+ORD-0118,CUST-022,P-005,1,405.19,2024-11-19,returned,Tomasz Dabrowska,tomasz.dabrowska@example.com,PL,2023-09-06,Sluchawki nauszne,Audio,320.0,405.19,2024-11
+ORD-0094,CUST-028,P-008,3,6182.91,2024-12-01,pending,Natalia Zielinski,natalia.zielinski@example.com,DE,2023-02-19,Laptop 16 cali,Komputery,4750.0,18548.73,2024-12
+ORD-0170,CUST-020,P-008,1,6472.45,2024-06-18,cancelled,Jakub Wisniewski,jakub.wisniewski@example.com,DE,2023-09-29,Laptop 16 cali,Komputery,4750.0,6472.45,2024-06
+ORD-0138,CUST-030,P-003,1,1098.79,2024-04-12,returned,Ewa Kaminski,ewa.kaminski@example.com,CZ,2023-04-09,Monitor 27 cali,Monitory,940.0,1098.79,2024-04
+ORD-0218,CUST-016,P-002,2,117.0,2024-06-30,cancelled,Marta Lewandowska,marta.lewandowska@example.com,DE,2023-11-02,Mysz bezprzewodowa,Peryferia,89.5,234.0,2024-06
+ORD-0233,CUST-016,P-006,2,502.46,2024-11-11,cancelled,Marta Lewandowska,marta.lewandowska@example.com,DE,2023-11-02,Mikrofon USB,Audio,410.0,1004.92,2024-11
+ORD-0017,CUST-011,P-009,1,32.3,2024-12-05,cancelled,Karolina Szymanski,karolina.szymanski@example.com,DE,2024-01-29,Podkladka pod mysz,Peryferia,25.0,32.3,2024-12
+ORD-0072,CUST-010,P-008,2,6763.28,2024-08-23,cancelled,Alicja Nowak,alicja.nowak@example.com,CZ,2024-01-09,Laptop 16 cali,Komputery,4750.0,13526.56,2024-08
+ORD-0205,CUST-020,P-004,1,856.93,2024-08-25,returned,Jakub Wisniewski,jakub.wisniewski@example.com,DE,2023-09-29,Monitor 24 cale,Monitory,610.0,856.93,2024-08
+ORD-0055,CUST-012,P-010,2,209.17,2024-05-22,pending,Natalia Kaminski,natalia.kaminski@example.com,DE,2024-04-12,Kamerka internetowa,Peryferia,180.0,418.34,2024-05
+ORD-0002,CUST-009,P-011,4,342.51,2024-10-10,completed,Karolina Zielinski,karolina.zielinski@example.com,DE,2024-07-18,Dysk SSD 1TB,Komponenty,290.0,1370.04,2024-10
+ORD-0100,CUST-018,P-010,1,257.17,2024-06-07,completed,Jakub Nowak,jakub.nowak@example.com,DE,2023-01-02,Kamerka internetowa,Peryferia,180.0,257.17,2024-06
+ORD-0152,CUST-031,P-005,3,406.22,2024-10-21,completed,Ewa Wisniewski,ewa.wisniewski@example.com,PL,2024-04-17,Sluchawki nauszne,Audio,320.0,1218.66,2024-10
+ORD-0196,CUST-025,P-006,4,593.62,2024-07-12,completed,Alicja Szymanski,alicja.szymanski@example.com,DE,2023-02-02,Mikrofon USB,Audio,410.0,2374.48,2024-07
+ORD-0051,CUST-017,P-011,2,353.81,2024-12-04,completed,Krzysztof Kowalska,krzysztof.kowalska@example.com,DE,2024-07-02,Dysk SSD 1TB,Komponenty,290.0,707.62,2024-12
+ORD-0158,CUST-032,P-010,2,241.51,2024-11-24,cancelled,Julia Szymanski,julia.szymanski@example.com,DE,2024-04-19,Kamerka internetowa,Peryferia,180.0,483.02,2024-11
+ORD-0008,CUST-022,P-001,1,252.8,2024-12-08,pending,Tomasz Dabrowska,tomasz.dabrowska@example.com,PL,2023-09-06,Klawiatura mechaniczna,Peryferia,210.0,252.8,2024-12
+ORD-0102,CUST-011,P-007,3,3986.89,2024-10-17,completed,Karolina Szymanski,karolina.szymanski@example.com,DE,2024-01-29,Laptop 14 cali,Komputery,3100.0,11960.67,2024-10
+ORD-0164,CUST-901,P-005,1,415.51,2024-01-05,cancelled,,,,,Sluchawki nauszne,Audio,320.0,415.51,2024-01
+ORD-0171,CUST-900,P-012,2,275.27,2024-12-01,pending,,,,,Pamiec RAM 16GB,Komponenty,195.0,550.54,2024-12
+ORD-0048,CUST-029,P-009,2,31.6,2024-08-07,completed,Ewa Zielinski,ewa.zielinski@example.com,PL,2023-12-01,Podkladka pod mysz,Peryferia,25.0,63.2,2024-08
+ORD-0162,CUST-037,P-003,1,1310.4,2024-03-22,pending,Piotr Dabrowska,piotr.dabrowska@example.com,DE,2023-07-26,Monitor 27 cali,Monitory,940.0,1310.4,2024-03
+ORD-0104,CUST-033,P-005,1,388.69,2024-05-25,completed,Ewa Zielinski,ewa.zielinski@example.com,CZ,2024-06-09,Sluchawki nauszne,Audio,320.0,388.69,2024-05
+ORD-0060,CUST-036,P-012,1,233.52,2024-04-25,completed,Anna Dabrowska,anna.dabrowska@example.com,PL,2023-09-29,Pamiec RAM 16GB,Komponenty,195.0,233.52,2024-04
+ORD-0228,CUST-900,P-003,1,1188.16,2024-07-03,pending,,,,,Monitor 27 cali,Monitory,940.0,1188.16,2024-07
+ORD-0110,CUST-015,P-005,1,439.6,2024-09-18,cancelled,Tomasz Wisniewski,tomasz.wisniewski@example.com,PL,2023-01-25,Sluchawki nauszne,Audio,320.0,439.6,2024-09
+ORD-0041,CUST-016,P-005,2,389.27,2024-08-30,returned,Marta Lewandowska,marta.lewandowska@example.com,DE,2023-11-02,Sluchawki nauszne,Audio,320.0,778.54,2024-08
+ORD-0142,CUST-006,P-005,1,398.84,2024-08-16,pending,Krzysztof Kaminski,krzysztof.kaminski@example.com,PL,2024-01-09,Sluchawki nauszne,Audio,320.0,398.84,2024-08
+ORD-0045,CUST-009,P-005,3,434.95,2024-02-22,pending,Karolina Zielinski,karolina.zielinski@example.com,DE,2024-07-18,Sluchawki nauszne,Audio,320.0,1304.85,2024-02
+ORD-0237,CUST-030,P-001,1,301.54,2024-05-29,pending,Ewa Kaminski,ewa.kaminski@example.com,CZ,2023-04-09,Klawiatura mechaniczna,Peryferia,210.0,301.54,2024-05
+ORD-0063,CUST-001,P-009,1,30.75,2024-10-27,completed,Julia Nowak,julia.nowak@example.com,PL,2023-04-25,Podkladka pod mysz,Peryferia,25.0,30.75,2024-10
+ORD-0043,CUST-031,P-004,2,741.1,2024-09-25,completed,Ewa Wisniewski,ewa.wisniewski@example.com,PL,2024-04-17,Monitor 24 cale,Monitory,610.0,1482.2,2024-09
+ORD-0226,CUST-018,P-006,2,475.14,2024-04-26,pending,Jakub Nowak,jakub.nowak@example.com,DE,2023-01-02,Mikrofon USB,Audio,410.0,950.28,2024-04
+ORD-0208,CUST-022,P-004,4,789.23,2024-04-18,pending,Tomasz Dabrowska,tomasz.dabrowska@example.com,PL,2023-09-06,Monitor 24 cale,Monitory,610.0,3156.92,2024-04
+ORD-0006,CUST-003,P-003,4,1202.2,2024-01-21,completed,Adam Kowalska,adam.kowalska@example.com,DE,2023-12-26,Monitor 27 cali,Monitory,940.0,4808.8,2024-01
+ORD-0182,CUST-006,P-005,1,430.01,2024-01-20,completed,Krzysztof Kaminski,krzysztof.kaminski@example.com,PL,2024-01-09,Sluchawki nauszne,Audio,320.0,430.01,2024-01
+ORD-0077,CUST-024,P-008,1,5510.04,2024-05-31,completed,Alicja Szymanski,alicja.szymanski@example.com,DE,2024-01-01,Laptop 16 cali,Komputery,4750.0,5510.04,2024-05
+ORD-0018,CUST-010,P-004,1,849.1,2024-08-31,pending,Alicja Nowak,alicja.nowak@example.com,CZ,2024-01-09,Monitor 24 cale,Monitory,610.0,849.1,2024-08
+ORD-0082,CUST-027,P-012,1,241.93,2024-01-20,completed,Piotr Szymanski,piotr.szymanski@example.com,CZ,2023-04-20,Pamiec RAM 16GB,Komponenty,195.0,241.93,2024-01
+ORD-0116,CUST-033,P-006,1,545.92,2024-02-22,returned,Ewa Zielinski,ewa.zielinski@example.com,CZ,2024-06-09,Mikrofon USB,Audio,410.0,545.92,2024-02
+ORD-0179,CUST-036,P-009,1,30.78,2024-11-11,returned,Anna Dabrowska,anna.dabrowska@example.com,PL,2023-09-29,Podkladka pod mysz,Peryferia,25.0,30.78,2024-11
+ORD-0185,CUST-030,P-006,3,491.49,2024-01-08,completed,Ewa Kaminski,ewa.kaminski@example.com,CZ,2023-04-09,Mikrofon USB,Audio,410.0,1474.47,2024-01
+ORD-0113,CUST-029,P-011,1,361.0,2024-06-04,returned,Ewa Zielinski,ewa.zielinski@example.com,PL,2023-12-01,Dysk SSD 1TB,Komponenty,290.0,361.0,2024-06
+ORD-0025,CUST-027,P-007,3,3622.91,2024-12-22,pending,Piotr Szymanski,piotr.szymanski@example.com,CZ,2023-04-20,Laptop 14 cali,Komputery,3100.0,10868.73,2024-12
+ORD-0122,CUST-014,P-005,3,385.31,2024-04-08,completed,Bartosz Szymanski,bartosz.szymanski@example.com,CZ,2024-07-15,Sluchawki nauszne,Audio,320.0,1155.93,2024-04
+ORD-0210,CUST-033,P-005,2,393.11,2024-08-28,cancelled,Ewa Zielinski,ewa.zielinski@example.com,CZ,2024-06-09,Sluchawki nauszne,Audio,320.0,786.22,2024-08
+ORD-0219,CUST-016,P-007,1,3991.87,2024-12-16,completed,Marta Lewandowska,marta.lewandowska@example.com,DE,2023-11-02,Laptop 14 cali,Komputery,3100.0,3991.87,2024-12
+ORD-0134,CUST-023,P-007,1,3566.45,2024-12-06,completed,Julia Zielinski,julia.zielinski@example.com,CZ,2023-09-28,Laptop 14 cali,Komputery,3100.0,3566.45,2024-12
+ORD-0201,CUST-014,P-008,3,5796.43,2024-03-12,cancelled,Bartosz Szymanski,bartosz.szymanski@example.com,CZ,2024-07-15,Laptop 16 cali,Komputery,4750.0,17389.29,2024-03
+ORD-0088,CUST-039,P-003,4,1303.4,2024-03-15,completed,Tomasz Kaminski,tomasz.kaminski@example.com,CZ,2023-12-10,Monitor 27 cali,Monitory,940.0,5213.6,2024-03
+ORD-0080,CUST-001,P-002,1,124.15,2024-07-07,completed,Julia Nowak,julia.nowak@example.com,PL,2023-04-25,Mysz bezprzewodowa,Peryferia,89.5,124.15,2024-07
+ORD-0090,CUST-027,P-001,3,249.49,2024-08-31,completed,Piotr Szymanski,piotr.szymanski@example.com,CZ,2023-04-20,Klawiatura mechaniczna,Peryferia,210.0,748.47,2024-08
+ORD-0037,CUST-038,P-008,4,6083.19,2024-02-14,pending,Adam Kowalska,adam.kowalska@example.com,DE,2023-10-26,Laptop 16 cali,Komputery,4750.0,24332.76,2024-02
+ORD-0187,CUST-016,P-003,1,1215.64,2024-08-16,completed,Marta Lewandowska,marta.lewandowska@example.com,DE,2023-11-02,Monitor 27 cali,Monitory,940.0,1215.64,2024-08
+ORD-0213,CUST-901,P-008,2,6839.77,2024-06-29,pending,,,,,Laptop 16 cali,Komputery,4750.0,13679.54,2024-06
+ORD-0022,CUST-031,P-003,3,1290.71,2024-11-22,pending,Ewa Wisniewski,ewa.wisniewski@example.com,PL,2024-04-17,Monitor 27 cali,Monitory,940.0,3872.13,2024-11
+ORD-0107,CUST-003,P-007,2,4366.44,2024-02-09,pending,Adam Kowalska,adam.kowalska@example.com,DE,2023-12-26,Laptop 14 cali,Komputery,3100.0,8732.88,2024-02
+ORD-0076,CUST-023,P-004,1,812.59,2024-05-08,cancelled,Julia Zielinski,julia.zielinski@example.com,CZ,2023-09-28,Monitor 24 cale,Monitory,610.0,812.59,2024-05
+ORD-0027,CUST-028,P-008,1,5775.18,2024-12-08,completed,Natalia Zielinski,natalia.zielinski@example.com,DE,2023-02-19,Laptop 16 cali,Komputery,4750.0,5775.18,2024-12
+ORD-0124,CUST-011,P-010,2,227.34,2024-11-15,pending,Karolina Szymanski,karolina.szymanski@example.com,DE,2024-01-29,Kamerka internetowa,Peryferia,180.0,454.68,2024-11
+ORD-0007,CUST-027,P-006,3,567.45,2024-05-01,pending,Piotr Szymanski,piotr.szymanski@example.com,CZ,2023-04-20,Mikrofon USB,Audio,410.0,1702.3500000000001,2024-05
+ORD-0089,CUST-009,P-011,3,408.88,2024-05-01,cancelled,Karolina Zielinski,karolina.zielinski@example.com,DE,2024-07-18,Dysk SSD 1TB,Komponenty,290.0,1226.6399999999999,2024-05
+ORD-0039,CUST-039,P-006,1,505.9,2024-01-06,completed,Tomasz Kaminski,tomasz.kaminski@example.com,CZ,2023-12-10,Mikrofon USB,Audio,410.0,505.9,2024-01
+ORD-0129,CUST-027,P-006,2,585.95,2024-04-30,completed,Piotr Szymanski,piotr.szymanski@example.com,CZ,2023-04-20,Mikrofon USB,Audio,410.0,1171.9,2024-04
+ORD-0234,CUST-022,P-001,1,301.28,2024-06-17,completed,Tomasz Dabrowska,tomasz.dabrowska@example.com,PL,2023-09-06,Klawiatura mechaniczna,Peryferia,210.0,301.28,2024-06
+ORD-0151,CUST-036,P-008,2,5499.95,2024-10-09,completed,Anna Dabrowska,anna.dabrowska@example.com,PL,2023-09-29,Laptop 16 cali,Komputery,4750.0,10999.9,2024-10
+ORD-0198,CUST-030,P-001,2,303.14,2024-09-29,pending,Ewa Kaminski,ewa.kaminski@example.com,CZ,2023-04-09,Klawiatura mechaniczna,Peryferia,210.0,606.28,2024-09
+ORD-0119,CUST-017,P-011,2,367.13,2024-11-04,completed,Krzysztof Kowalska,krzysztof.kowalska@example.com,DE,2024-07-02,Dysk SSD 1TB,Komponenty,290.0,734.26,2024-11
+ORD-0101,CUST-005,P-010,2,242.5,2024-01-16,pending,Karolina Wisniewski,karolina.wisniewski@example.com,PL,2023-02-22,Kamerka internetowa,Peryferia,180.0,485.0,2024-01
+ORD-0096,CUST-901,P-006,1,588.79,2024-02-13,completed,,,,,Mikrofon USB,Audio,410.0,588.79,2024-02
+ORD-0115,CUST-036,P-007,3,3995.32,2024-01-22,completed,Anna Dabrowska,anna.dabrowska@example.com,PL,2023-09-29,Laptop 14 cali,Komputery,3100.0,11985.960000000001,2024-01
+ORD-0240,CUST-006,P-010,1,241.46,2024-12-06,completed,Krzysztof Kaminski,krzysztof.kaminski@example.com,PL,2024-01-09,Kamerka internetowa,Peryferia,180.0,241.46,2024-12
+ORD-0148,CUST-032,P-012,1,277.86,2024-02-07,completed,Julia Szymanski,julia.szymanski@example.com,DE,2024-04-19,Pamiec RAM 16GB,Komponenty,195.0,277.86,2024-02
+ORD-0177,CUST-018,P-008,2,5959.54,2024-10-05,cancelled,Jakub Nowak,jakub.nowak@example.com,DE,2023-01-02,Laptop 16 cali,Komputery,4750.0,11919.08,2024-10
+ORD-0149,CUST-021,P-011,3,417.68,2024-10-08,completed,Anna Nowak,anna.nowak@example.com,DE,2024-03-01,Dysk SSD 1TB,Komponenty,290.0,1253.04,2024-10
+ORD-0143,CUST-023,P-006,1,526.5,2024-11-23,cancelled,Julia Zielinski,julia.zielinski@example.com,CZ,2023-09-28,Mikrofon USB,Audio,410.0,526.5,2024-11
+ORD-0133,CUST-032,P-002,1,105.9,2024-09-20,cancelled,Julia Szymanski,julia.szymanski@example.com,DE,2024-04-19,Mysz bezprzewodowa,Peryferia,89.5,105.9,2024-09
+ORD-0192,CUST-034,P-003,2,1127.4,2024-10-25,pending,Ewa Kowalczyk,ewa.kowalczyk@example.com,CZ,2023-05-27,Monitor 27 cali,Monitory,940.0,2254.8,2024-10
+ORD-0131,CUST-040,P-012,1,251.69,2024-05-11,returned,Alicja Nowak,alicja.nowak@example.com,PL,2023-10-16,Pamiec RAM 16GB,Komponenty,195.0,251.69,2024-05
+ORD-0057,CUST-036,P-011,1,415.73,2024-05-09,returned,Anna Dabrowska,anna.dabrowska@example.com,PL,2023-09-29,Dysk SSD 1TB,Komponenty,290.0,415.73,2024-05
+ORD-0067,CUST-901,P-012,1,232.68,2024-05-15,completed,,,,,Pamiec RAM 16GB,Komponenty,195.0,232.68,2024-05
+ORD-0026,CUST-023,P-008,1,5470.9,2024-08-02,completed,Julia Zielinski,julia.zielinski@example.com,CZ,2023-09-28,Laptop 16 cali,Komputery,4750.0,5470.9,2024-08
+ORD-0003,CUST-901,P-012,1,244.31,2024-09-07,completed,,,,,Pamiec RAM 16GB,Komponenty,195.0,244.31,2024-09
+ORD-0028,CUST-026,P-010,2,235.84,2024-02-12,completed,Tomasz Kowalska,tomasz.kowalska@example.com,PL,2023-04-28,Kamerka internetowa,Peryferia,180.0,471.68,2024-02
+ORD-0111,CUST-901,P-006,1,560.97,2024-03-15,completed,,,,,Mikrofon USB,Audio,410.0,560.97,2024-03
+ORD-0204,CUST-034,P-011,1,391.91,2024-03-17,pending,Ewa Kowalczyk,ewa.kowalczyk@example.com,CZ,2023-05-27,Dysk SSD 1TB,Komponenty,290.0,391.91,2024-03

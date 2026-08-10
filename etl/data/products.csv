@@ -1,0 +1,13 @@
+product_id,product_name,category,unit_cost
+P-001,Klawiatura mechaniczna,Peryferia,210.00
+P-002,Mysz bezprzewodowa,Peryferia,89.50
+P-003,Monitor 27 cali,Monitory,940.00
+P-004,Monitor 24 cale,Monitory,610.00
+P-005,Sluchawki nauszne,Audio,320.00
+P-006,Mikrofon USB,Audio,410.00
+P-007,Laptop 14 cali,Komputery,3100.00
+P-008,Laptop 16 cali,Komputery,4750.00
+P-009,Podkladka pod mysz,Peryferia,25.00
+P-010,Kamerka internetowa,Peryferia,180.00
+P-011,Dysk SSD 1TB,Komponenty,290.00
+P-012,Pamiec RAM 16GB,Komponenty,195.00
