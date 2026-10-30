@@ -15,7 +15,8 @@ handling that explicitly rather than letting pandas guess.
 etl/
   data/
     orders.csv  customers.csv  products.csv   raw input
-    processed/                                output (fact table, quarantine, SQLite)
+    processed/                                output: fact table, quarantine, SQLite
+                                              warehouse, monthly Parquet partitions
   src/
     extract.py     read the raw files, every column as text
     transform.py   parse, clean, deduplicate, validate, join, aggregate
@@ -36,11 +37,12 @@ python -m venv .venv
 Output on the bundled data:
 
 ```
+stage     246 raw orders in 5 batches
 extract   246 orders, 44 customers, 12 products
 clean     240 orders after dedup, 40 unique customers
 validate  215 accepted, 25 quarantined
 join      215 fact rows, 21 from unknown customers
-load      written to etl/data/processed
+load      written to etl/data/processed (12 monthly partitions)
 
 total completed revenue: 250,204.33
 ```
@@ -54,8 +56,15 @@ followed by the top five customers and revenue by category and month.
 Every column is read as `str`. Type conversion is an explicit decision of the
 transformation layer, not a side effect of `read_csv`: inferred dtypes would turn
 identifiers like `007` into integers and reduce prices written as `248,03` to
-missing values. `read_csv_in_chunks` streams a file in fixed-size batches for
-exports larger than memory.
+missing values.
+
+### Stage — batch by batch
+
+Before anything is transformed, the raw order export is copied into a
+`raw_orders` staging table in the SQLite warehouse with `read_csv_in_chunks`:
+the file is streamed in batches of 50 rows, the first batch replaces the table and
+the rest are appended, so only one batch is held in memory at a time. This is the
+same mechanism an incremental load would use for exports larger than memory.
 
 ### Transform — typed, deduplicated, validated
 
@@ -84,13 +93,13 @@ the join did not multiply rows. Reports are computed on completed orders only:
 revenue by category and month, and a top-customer ranking that keeps unknown
 customers in the totals (`dropna=False`).
 
-### Load — three destinations
+### Load — four destinations
 
 - `fact_orders.csv` and `quarantine_orders.csv`
 - `fact_orders.parquet`, which keeps `Int64` and datetime types intact
-- `warehouse.db`, a SQLite table written with `replace` (full reload) or `append`
-  (incremental load)
-
-`save_partitioned_by_month` additionally writes the fact table as Hive-style
-partitions (`order_month=2024-01/data.parquet`, …), so a query filtered by month
-reads a single file instead of scanning the dataset.
+- `warehouse.db` — `fact_orders` written with `replace` (full reload), next to the
+  `raw_orders` staging table built with `append`
+- `fact_orders_by_month/` — Hive-style partitions
+  (`order_month=2024-01/data.parquet`, …), so a query filtered by month reads a
+  single file instead of scanning the dataset; `pd.read_parquet` on the directory
+  reassembles the full table with `order_month` restored from the paths

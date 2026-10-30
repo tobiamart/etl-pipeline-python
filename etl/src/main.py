@@ -3,8 +3,20 @@
     .venv/bin/python etl/src/main.py
 """
 
-from extract import CUSTOMERS_FILE, ORDERS_FILE, PRODUCTS_FILE, read_csv_raw
-from load import PROCESSED_DIR, save_csv, save_parquet, save_to_sqlite
+from extract import (
+    CUSTOMERS_FILE,
+    ORDERS_FILE,
+    PRODUCTS_FILE,
+    read_csv_in_chunks,
+    read_csv_raw,
+)
+from load import (
+    PROCESSED_DIR,
+    save_csv,
+    save_parquet,
+    save_partitioned_by_month,
+    save_to_sqlite,
+)
 from transform import (
     build_fact_table,
     clean_customers,
@@ -18,6 +30,20 @@ from transform import (
 
 
 def main() -> None:
+    warehouse = PROCESSED_DIR / "warehouse.db"
+
+    # --- stage ---
+    # The raw order export is copied into the warehouse batch by batch: the
+    # first batch replaces the staging table, the rest are appended, and only
+    # one batch is held in memory at a time.
+    staged = batches = 0
+    for batches, chunk in enumerate(read_csv_in_chunks(ORDERS_FILE), start=1):
+        staged += save_to_sqlite(
+            chunk, warehouse, "raw_orders",
+            if_exists="replace" if batches == 1 else "append",
+        )
+    print(f"stage     {staged} raw orders in {batches} batches")
+
     # --- extract ---
     raw_orders = read_csv_raw(ORDERS_FILE)
     raw_customers = read_csv_raw(CUSTOMERS_FILE)
@@ -43,8 +69,9 @@ def main() -> None:
     save_csv(fact, PROCESSED_DIR / "fact_orders.csv")
     save_parquet(fact, PROCESSED_DIR / "fact_orders.parquet")
     save_csv(invalid, PROCESSED_DIR / "quarantine_orders.csv")
-    save_to_sqlite(fact, PROCESSED_DIR / "warehouse.db", "fact_orders")
-    print(f"load      written to {PROCESSED_DIR}")
+    save_to_sqlite(fact, warehouse, "fact_orders")
+    partitions = save_partitioned_by_month(fact, PROCESSED_DIR / "fact_orders_by_month")
+    print(f"load      written to {PROCESSED_DIR} ({len(partitions)} monthly partitions)")
 
     # --- results ---
     completed = fact[fact["status"] == "completed"]
